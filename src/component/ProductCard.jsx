@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch} from 'react-redux';
-import { addFinalProduct } from '../utils/finalProductSlice';
+import {addFinalProduct} from "../utils/finalproductSlice";
 
 const ProductCard = ({products}) => {
 
