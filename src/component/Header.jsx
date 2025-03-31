@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
 
   const finalproduct = useSelector((store) => store.final);
+  
 
   if(!finalproduct) return;
 

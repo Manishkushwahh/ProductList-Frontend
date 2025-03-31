@@ -27,8 +27,8 @@ const EditFinalProduct = ({final}) => {
               productprice
             }
           );
-        //   console.log(res.data.data);
-        //   dispatch(addFinal(res.data.data));
+          // dispatch(addFinal(res.data.data));
+          console.log(res.data.data);
         } catch (error) {
           console.log(error);
         }

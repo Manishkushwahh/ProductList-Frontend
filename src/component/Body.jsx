@@ -72,7 +72,7 @@ const Body = () => {
     getMaterials();
     getGrades();
     getFinalProduct();
-  }, []);
+  });
 
 
   
